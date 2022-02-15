@@ -14,3 +14,71 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.body {
+}
+
+.header {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  color: rgb(255, 255, 255) !important;
+  background: rgb(168, 166, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(168, 166, 166, 1) 0%,
+    rgba(31, 31, 31, 1) 100%
+  );
+}
+
+.header img {
+  height: 100px;
+  top: 50%;
+  left: 50%;
+}
+
+.menu {
+  float: center;
+  background: rgb(168, 166, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(168, 166, 166, 1) 0%,
+    rgba(31, 31, 31, 1) 100%
+  );
+  overflow: hidden;
+}
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu a:hover {
+  background-color: rgb(116, 115, 115);
+  color: black;
+}
+
+.menu a.next-link-active {
+  background: rgb(168, 166, 166);
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.main iframe {
+    height:300px;
+    width:100%;
+}
