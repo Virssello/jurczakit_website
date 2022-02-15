@@ -65,11 +65,18 @@ a {
   color: black;
 }
 
-.menu a.next-link-active {
-  background: rgb(168, 166, 166);
+.info {
+  text-align: center;
 }
 
-.info {
-  float: center;
-  
+.info a:hover {
+  color: rgb(65, 63, 63);
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact a:hover {
+  color: rgb(65, 63, 63);
 }
