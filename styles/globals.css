@@ -15,10 +15,6 @@ a {
   box-sizing: border-box;
 }
 
-
-.body {
-}
-
 .header {
   display: flex;
   height: 100%;
@@ -73,12 +69,7 @@ a {
   background: rgb(168, 166, 166);
 }
 
-.main {
-  height: 100%;
-  width: 100%;
-}
-
-.main iframe {
-    height:300px;
-    width:100%;
+.info {
+  float: center;
+  
 }
